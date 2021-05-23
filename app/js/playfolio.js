@@ -46,6 +46,24 @@ for (let años = 0; años < añoActual; años++) {
         console.log(años+1+'° año de estudio en la carrera.');
     }   
 }
+//---------------------------------- TEMA 3 (WHILE) ----------------------------------
+let experienciaLaboral='junior';
+let añosTrabajando=0;
+let añoInicioLaboral=2015;
+let añoActual=2021;
+while (añoInicioLaboral<=añoActual) {
+    añosTrabajando++;
+    if(añosTrabajando == 3){ 
+        experienciaLaboral='Semi Senior';
+        //console.log(añosTrabajando);
+    }else if (añosTrabajando == 6){
+        
+        experienciaLaboral='Senior';
+    }
+    console.log('En el año '+añoInicioLaboral+' alcanzaste el estado de '+experienciaLaboral+' en desarrollo de sistemas.' );
+    añoInicioLaboral++;
+}
+
 
 
 
